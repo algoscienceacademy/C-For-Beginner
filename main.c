@@ -7,8 +7,8 @@
 *  *     *                 *        U         U          TT       OOO      R   R     III    A   A    LLLLL
 *   *****                  *         UUUUUUUU            TT       OOO      R   R     III    A   A    LLLLL
 *  C  For Beginner 
-*  Author Shahrear Hossain Shawon
-*  cradit: javtpoint
+*  Author: Shahrear Hossain Shawon
+*  cradit: javatpoint
 *  github : algoscienceacademy
 * Licence : LGPL Licence
 * UploadDate :  26 Oct 2024
@@ -24,7 +24,7 @@
 // Program to print cube of given number
 
 
-// #include<stdio.h>    
+// #include<stdio.h>  
 // int main(){    
 // int number;    
 // printf("enter a number:");    
@@ -41,7 +41,7 @@
 // #include<stdio.h> 
 
 // int main(){    
-// int x=0,y=0,result=0;  
+// int x,y,result; 
   
 // printf("enter first number:");  
 // scanf("%d",&x);  
@@ -147,8 +147,8 @@ int studentCount;
   |   short int       |  2 Byte           |  −32,768 to 32,767               |
   |   long int        |  4 Byte           |  -2,147,483,648 to 2,147,483,647 |
   |   float           |  4 Byte           |                                  |
-  |   double          |  1 Byte           |                                  |
-  |   long double     |  1 Byte           |                                  |
+  |   double          |  8 Byte           |                                  |
+  |   long double     |  8 Byte           |                                  |
   ----------------------------------------------------------------------------
   
 */
@@ -199,14 +199,18 @@ int studentCount;
 
 // #include <stdio.h>  
   
+// int count;
 // int main() {  
 //     auto int count = 10;  
 // printf("Count: %d\n", count);  
   
-//     {  
-//         auto int count = 5;  
-// printf("Inner Count: %d\n", count);  
-//     }  
+//    {
+
+//     auto int count = 5;  
+//     printf("Inner Count: %d\n", count);
+//    }  
+   
+//    }
   
 // printf("Count: %d\n", count);  
   
@@ -353,7 +357,7 @@ int studentCount;
 // #include <stdio.h>  
   
 // int main() {  
-// int age = 20;  
+// int age = 10;  
 //     if (age >= 18) {  
 // printf("You are an adult.\n");  
 //     } else {  
@@ -380,7 +384,7 @@ int studentCount;
 // };  
   
 // int main() {  
-// enum Days today = Tuesday;  
+// enum Days today = Thursday;  
 // printf("Today is day number %d\n", today);  
   
 //     return 0;  
@@ -490,7 +494,7 @@ int studentCount;
 // #include <stdio.h>  
   
 // int main() {  
-// int size = sizeof(char);  
+// int size = sizeof(float);  
 // printf("Size of int: %d bytes\n", size);  
   
 //     return 0;  
@@ -713,20 +717,23 @@ int studentCount;
 // }  
 
 //---------------------------------------------------------------
-// #include<stdio.h>  
-// void sum();  
-// void main()  
-// {  
-//     printf("\nGoing to calculate the sum of two numbers:");  
-//     sum();  
-// }  
-// void sum()  
-// {  
-//     int a,b;   
-//     printf("\nEnter two numbers");  
-//     scanf("%d %d",&a,&b);   
-//     printf("The sum is %d",a+b);  
-// } 
+ #include<stdio.h>  
+int sum();  
+int main()  
+{  
+    printf("\nGoing to calculate the sum of two numbers:");  
+    sum(); 
+    return 0;
+}   
+int sum() 
+{  
+    int a,b,result;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b); 
+    result = a+b;
+    printf("The sum is %d",result);
+   return result;
+} 
 
 //-----------------------------------------------------------------
 
