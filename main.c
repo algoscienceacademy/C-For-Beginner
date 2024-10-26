@@ -31,37 +31,38 @@
 
 // Program to print cube of given number
 
-/*
-#include<stdio.h>    
-int main(){    
-int number;    
-printf("enter a number:");    
-scanf("%d",&number);    
-printf("cube of number is:%d ",number*number*number);    
-return 0;  
-}  
-*/
+
+// #include<stdio.h>    
+// int main(){    
+// int number;    
+// printf("enter a number:");    
+// scanf("%d",&number);    
+// printf("cube of number is:%d ",number*number*number);    
+// return 0;  
+// }  
+
 
 
 // Program to print sum of 2 numbers
 
-/*
-#include<stdio.h>    
-int main(){    
-int x=0,y=0,result=0;  
-  
-printf("enter first number:");  
-scanf("%d",&x);  
-printf("enter second number:");  
-scanf("%d",&y);  
-  
-result=x+y;  
-printf("sum of 2 numbers:%d ",result);  
-  
-return 0;  
-}    
 
-*/
+// #include<stdio.h> 
+
+// int main(){    
+// int x=0,y=0,result=0;  
+  
+// printf("enter first number:");  
+// scanf("%d",&x);  
+// printf("enter second number:");  
+// scanf("%d",&y);  
+  
+// result=x+y;  
+// printf("sum of 2 numbers:%d ",result);  
+  
+// return 0;  
+// }    
+
+
 
 //--------------------------------------------------------------------------------
 
@@ -134,7 +135,7 @@ int studentCount;
   ------------------------------------------------------------------
             Types                 | .       Datatypes
   ------------------------------------------------------------------
-  | . Basic Dta Type              | int, char, float, double       |
+  | . Basic Data Type             | int, char, float, double       |
   | . Derived Data Types          | array,pointer, structure,union |
   | . Enumeration Data Types      | enum                           | 
   | . Void Data Types             | void                           |
