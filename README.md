@@ -1,6 +1,4 @@
-Creating a comprehensive 1000-line Markdown file for a C programming beginner course is quite a task! Below is a detailed outline with explanations, examples, and exercises that expands on various topics in C programming. This can be a starting point, and you can add more details or sections as necessary.
 
-```markdown
 # C Programming for Beginners
 
 Welcome to the C Programming course at AlgoScience Academy! This guide will help you get started with the fundamentals of the C programming language.
