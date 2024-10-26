@@ -1,5 +1,4 @@
 
-```markdown
 # C Programming for Beginners
 
 Welcome to the C Programming course at AlgoScience Academy! This guide will help you get started with the fundamentals of the C programming language.
