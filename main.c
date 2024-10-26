@@ -143,14 +143,14 @@ int studentCount;
                 
 
   ----------------------------------------------------------------------------
-        Dta Types     |    Memory Size    |       Range                      |
+        Data Types     |    Memory Size    |       Range                      |
   ----------------------------------------------------------------------------
   |   char            |  1 Byte           |  -128 to 127                     |
   |   schar           |  1 Byte           |  -128 to 127                     |
   |   uchar           |  1 Byte           |    0 to 255                      |
   |   short           |  2 Byte           |  -32768 to 32767                 |
-  |   schar           |  2 Byte           |  -32768 to 32767                 |
-  |   uhar            |  2 Byte           |    0 to 65,535                   |
+  |   sshort           |  2 Byte           |  -32768 to 32767                 |
+  |   ushort            |  2 Byte           |    0 to 65,535                   |
   |   int             |  2 Byte           |  -32,768 to 32,767               |
   |   short int       |  2 Byte           |  −32,768 to 32,767               |
   |   long int        |  4 Byte           |  -2,147,483,648 to 2,147,483,647 |
