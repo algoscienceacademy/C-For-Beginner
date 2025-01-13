@@ -1,27 +1,19 @@
-/** -----------------------------------
+/** --------------------------------------------------------------------------------------------------------
+*   
+*   *****                TTTTTTT    U         U     TTTTTTTTTTTT  OOO      RRRR      III    AAAAA    L    
+*  *     *                 *        U         U          TT      O   O     R   R      I     A   A    L    
+* *                        *        U         U          TT      O   O     RRRR       I     AAAAA    L    
+* *                        *        U         U          TT      O   O     R  R       I     A   A    L    
+*  *     *                 *        U         U          TT       OOO      R   R     III    A   A    LLLLL
+*   *****                  *         UUUUUUUU            TT       OOO      R   R     III    A   A    LLLLL
 *  C  For Beginner 
 *  Author Shahrear Hossain Shawon
 *  cradit: javtpoint
 *  github : algoscienceacademy
 * Licence : LGPL Licence
-* Date :  26 Oct 2024
-------------------------------------------*/
-
-//........................./  \..................------.................../  \.................
-//......................../   \..............----......................../    \.............
-//..... ................./     \............---........................./      \.............
-//................... ../       \..........---........................./         \.............
-//................. .../         \.........------------.............../           \.............
-//.................../ ---------- \............. ----................/-------------\.............
-//................../              \........... ---- .............../               \.............  
-//................/                 \.......------ ................/                 \.............    
-//............./                     \......----................../                   \.............       
-//............/                       \....---.................../                     \.............    
-  
-
-
-
-
+* UploadDate :  26 Oct 2024
+* LastModified:  13 Jan 2025
+--------------------------------------------------------------------------------------------------------------*/
 
 
 /*
@@ -228,7 +220,7 @@ int studentCount;
 // #include <stdio.h>  
   
 // int main() {  
-//     for (inti = 0; i< 10; i++) {  
+//     for (int i = 0; i< 10; i++) {  
 //         if (i == 5) {  
 //             break;  
 //         }  
@@ -498,7 +490,7 @@ int studentCount;
 // #include <stdio.h>  
   
 // int main() {  
-// int size = sizeof(int);  
+// int size = sizeof(char);  
 // printf("Size of int: %d bytes\n", size);  
   
 //     return 0;  
@@ -518,7 +510,9 @@ int studentCount;
   
 // int main() {  
 // increment();  
+// increment();
 // increment();  
+// increment();   
   
 //     return 0;  
 // } 
@@ -531,7 +525,7 @@ int studentCount;
 // #include <string.h>  
   
 // struct Person {  
-//     char name[20];  
+// char name[20];  
 // int age;  
 // };  
   
@@ -628,7 +622,7 @@ int studentCount;
   
 // int main() {  
 // int i = 0;  
-//     while (i< 5) {  
+// while (i< 5) {  
 // printf("%d ", i);  
 // i++;  
 //     }  
@@ -666,7 +660,7 @@ int studentCount;
   --------------------------------------------------------------------------------
         Category         |    Operator                           | Associativity |
   --------------------------------------------------------------------------------
-  |   Postfix            |  () [] ->. ++ - -                     | Left to right |
+  |   Postfix            |  ()[]  ->. ++ - -                     | Left to right |
   |   Unary              | + - ! ~ ++ - - (type)* & sizeof       | Right to left |
   |   Muitiplicative     |  * / %                                | Left to right |
   |   Additive           |  + -                                  | Left to right |
