@@ -6,10 +6,10 @@
 * *                        *        U         U          TT      O   O     R  R       I     A   A    L    
 *  *     *                 *        U         U          TT       OOO      R   R     III    A   A    LLLLL
 *   *****                  *         UUUUUUUU            TT       OOO      R   R     III    A   A    LLLLL
-*  C  For Beginner 
-*  Author: Shahrear Hossain Shawon
-*  cradit: javatpoint
-*  github : algoscienceacademy
+* C  For Beginner 
+* Author: Shahrear Hossain Shawon
+* cradit: javatpoint
+* github : algoscienceacademy
 * Licence : LGPL Licence
 * UploadDate :  26 Oct 2024
 * LastModified:  13 Jan 2025
